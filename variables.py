@@ -58,3 +58,50 @@ print(customer_one_itemization)
 print('Customer One Total:')
 print(customer_one_total)
 
+
+myint = 5
+myfloat = 12.43
+
+mystr = 'This is a string'
+
+mybool = True
+
+mylist = [0, 1, 'two', 3.2, False]
+
+# print(mylist[2])
+
+# Slice
+# print(mylist[1:3])
+
+# step
+# print(mylist[1:5:2])
+
+# reverse
+# print(mylist[::1])
+
+mytuple = (0, 1, 2)
+
+mydict = {'one': 1, 'two': 2}
+
+# access key:value
+# print(mydict['one'])
+
+# ERROR: variables of different types cannot be combined
+# print('string type' + 234)
+# print('string type' + str(234))
+
+
+# Global vd Local variables
+def somefunc():
+    global mystr
+    mystr = 'def'
+    print(mystr)
+somefunc()
+print(mystr)
+
+del mystr
+print(mystr)
+
+# Global
+# Local
+# del a variable
