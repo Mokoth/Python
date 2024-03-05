@@ -45,3 +45,14 @@ print(10 / 3) # 3.3333333333333335
 print(int(10 / 3)) # 3
 print(round(10 / 3, 2)) # 3.33
 
+# conditional execution
+
+# boolean = True and False
+# == | > | < | >= | <= | !=
+
+# temp = 15
+# if temp > 15:
+#     # do this
+# else:
+#     # do this
+
