@@ -1,5 +1,9 @@
-# print()
+# print(*objects, sep=' ' , end='\n')
+print('Hello', end='', sep=' ++')
+print('Hi')
 # EOL 
+
+
 
 # VALUE AND TYPES
     # strings - > each letter (binary value)
