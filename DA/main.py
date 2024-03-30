@@ -127,3 +127,17 @@ for row in apps_data[1:]:
 # print(avg)
 avg_rating_non_games = sum(non_games_ratings) / len(non_games_ratings)
 print(avg_rating_non_games)
+
+
+# 
+catNames = []
+
+while True:
+    print(f'Enter cat name {len(catNames) + 1} (Enter nothing to exit.)')
+    name = input()
+    if name == '':
+        break
+    catNames.append(name)
+print('Cat names are:')
+for row in catNames:
+    print('' + row)
